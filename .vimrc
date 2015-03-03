@@ -23,6 +23,7 @@ function! ReformatLLVM()
 	norm gg=G
 
 	call cursor(l, c)
+	norm zz
 endfunction
 
 map <C-K> :call ReformatLLVM()<CR>
